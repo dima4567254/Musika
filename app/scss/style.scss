@@ -96,8 +96,6 @@
     background-color: transparent;
     position: relative;
     transition: color 0.5s;
-    background-color: $active;
-
     &:focus {
         color: $green;
     }
@@ -112,16 +110,16 @@
     &:active {
         color: $active;
     }
-/*
+
     &::before {
         content: "";
         position: absolute;
         top: 0;
-        height: 15px;
-        width: 15px;
+        height: 16px;
+        width: 16px;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        
     }
 
     &--cart::before {
@@ -132,14 +130,12 @@
     &--search::before {
         background-image: url('../images/icon/search.svg');
         right: 0;
-    }*/
+    }
 }
 
 .dropdown {
-
     &__sort {
         position: relative;
-
         &::before {
             content: "";
             position: absolute;
