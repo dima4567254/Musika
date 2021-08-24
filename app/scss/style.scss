@@ -90,22 +90,21 @@
 
 .button {
     margin-right: 15px;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
     border: none;
     background-color: transparent;
     position: relative;
     transition: color 0.5s;
+    background-color: $active;
 
     &:focus {
         color: $green;
     }
 
-    &:hover {
-        
-
+    &:hover {    
         &__svg path {
-            fill: $ac;
+            fill: #FFFFFF;
 
         }
     }
@@ -113,7 +112,7 @@
     &:active {
         color: $active;
     }
-
+/*
     &::before {
         content: "";
         position: absolute;
@@ -133,7 +132,7 @@
     &--search::before {
         background-image: url('../images/icon/search.svg');
         right: 0;
-    }
+    }*/
 }
 
 .dropdown {
