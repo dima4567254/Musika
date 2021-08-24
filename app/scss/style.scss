@@ -1,0 +1,166 @@
+@import 'vars';
+@import 'fonts';
+@import 'reset';
+@import 'global';
+@import 'libs';
+
+.logo {
+    display: block;
+    width: 100px;
+    height: 33px;
+    object-fit: cover;
+    transition: color 0.5s;
+
+    &:focus {
+        color: $green;
+    }
+
+    &:hover {
+        color: $ac;
+    }
+
+    &:active {
+        color: $active;
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0 10px;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+    }
+
+    &__items {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    &__item:not(:last-child) {
+        margin-right: 30px;
+
+    }
+
+    &__link {
+        font-family: $Butler;
+        font-weight: 400;
+        letter-spacing: 0.8px;
+        line-height: 3.4em;
+        text-transform: uppercase;
+        position: relative;
+        outline-color: $black;
+        outline-offset: 5px;
+        transition: color 0.5s;
+
+        &:focus {
+            color: $green;
+        }
+
+        &:hover {
+            &::before {
+                content: "";
+                position: absolute;
+                top: -2px;
+                left: 0;
+                height: 2px;
+                width: 50%;
+                background-color: $blue;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                bottom: -2px;
+                right: 0px;
+                height: 2px;
+                width: 50%;
+                background-color: $blue;
+            }
+        }
+
+        &:active {
+            color: $active;
+        }
+    }
+}
+
+.button {
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    transition: color 0.5s;
+
+    &:focus {
+        color: $green;
+    }
+
+    &:hover {
+        
+
+        &__svg path {
+            fill: $ac;
+
+        }
+    }
+
+    &:active {
+        color: $active;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        height: 15px;
+        width: 15px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &--cart::before {
+        background-image: url('../images/icon/cart.svg');
+        left: 0;
+    }
+
+    &--search::before {
+        background-image: url('../images/icon/search.svg');
+        right: 0;
+    }
+}
+
+.dropdown {
+
+    &__sort {
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 8px;
+            width: 8px;
+            background-image: url('../images/icon/user.svg')
+        }
+    }
+
+    &__option {}
+
+
+    margin-right: 15px;
+}
+
+/*
+padding: 5px 5px 5px 20px;
+*/
+/*медия всегда должны быть в низу */
+
+@import 'media';

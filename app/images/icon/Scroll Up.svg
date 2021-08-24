@@ -1,0 +1,13 @@
+<svg id="Scroll_Up" data-name="Scroll Up" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12" height="39" viewBox="0 0 12 39">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #212121;
+        font-family: FontAwesome;
+      }
+    </style>
+  </defs>
+  <image id="guitar" y="11" width="12" height="28" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAcCAYAAABVo158AAACJ0lEQVQ4jcWUv2tUQRDHP7Pv7rhTiOEFERsbf0CqU5sggmAhogiCKIKlgvijsNTGX41FJIWFxia1+g/YqygkqIigNhEVLoXC/VATJHfZHZnHPnk+41k6sOzsznx3Z+Y7u9JsNinJJeA0EIB7wOWiuQxwwHdgH9ABXgFjwFLuUCmdngAfgWdxPQ/UhwEsjLXAIWARGAH6RYcywANPgRlAgbkY4l8BJh+AO8AysLFsdH+4wyjwI451ZeNqN1go1ZiP6f+8Yaj8H8BiJLBSJGwYYFsky5y3DAOsAR4DR4A28AXYH4kcXQ3wHngDnAK+AgMRORf76lPulPNwI9b8rIigqthsEtd2623gfA44DlyM+hlgvap6EVlW1SngAjBdBHwDFkxR1XEzACuq+iDaP8f38SukYoucADbHpFtxbwWo5Y7jsStno7ELnAR6kROT1/Hl7TLAdeCRiCxVKhUGg4GV8n5swAO25733qvoQuGJl3WEOVo12u00Iwd7DBLBTVd92u908VMtnkwGSarXa6/V6tFot7MSYfKbbXqfToVarWYjeAFah7SEE0jSdcM49B16ISDbSNN1rYFW178XZcdPe+8l6vX6z3+/PhxAmVTVjTVXVOfeu0WhYqFeBW9m/pKoLSZLMeu+N0d/EcnPOzXjvj4nISNZLIjIeQtidJMmciBwWkTERSUXkoHPuSQjhqHNuq4GLTG8IIdwFrkWiMp5CCC+BPVmvAT8B5nfJo/TKukAAAAAASUVORK5CYII="/>
+  <text id="up" class="cls-1" transform="translate(11.999 -3.2) rotate(180) scale(1.011 0.977)"></text>
+</svg>

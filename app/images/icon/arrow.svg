@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7" height="4" viewBox="0 0 7 4">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 11px;
+        font-family: FontAwesome;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <text id="dropdown" class="cls-1" x="-0.444" y="5.438"></text>
+</svg>
